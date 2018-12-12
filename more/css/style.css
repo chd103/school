@@ -1,0 +1,4 @@
+.box{max-width:100%;padding:0 15px;}
+.box h2{color:green; height:40px;line-height:40px;font-size:20px;display:block;border-bottom:1px dashed #ccc;border-top:1px dashed #ccc;margin-bottom:10px;}
+.box a{display:inline-block;width:45%;height:30px;line-height:30px;color:blue;background:paleturquoise;text-align:center;margin-bottom:10px;border-radius:10px;}
+.box>h3>a{height:40px;line-height:40px;display:block;color:orangered;background:peachpuff;}

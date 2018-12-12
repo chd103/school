@@ -1,0 +1,23 @@
+*{margin:0; padding:0;}
+ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,label,form,p,ol,header,footer,nav,section,aside,dialog,figure,figcaption,hgroup,article{display:block;}
+ul{list-style:none}
+.clearfix:after{display:block; height:0; clear:both; content:'.'; visibility:hidden;}
+.ellipsis{
+white-space: nowrap;/*空白不换行*/
+overflow:hidden;/*溢出隐藏*/
+text-overflow:ellipsis;/*显示省略号*/
+}
+a{text-decoration:none;}
+body{font-family: "Hiragino Sans GB","Hiragino Sans GBW3","Microsoft Yahei",STHeiti,SimSun,helvetica,arial,sans-serif;}	
+.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.app{width:100%;background:white;margin-top:40px;padding:0 15px;display:none;}
+.app ul li{float:left;width:40px;text-align:center;height:40px;margin-right:31px;}
+.app ul li:nth-of-type(5){margin-right:0;}
+.app ul li a img{max-width:100%;max-height:100%;}
+.app ul li a{color:#000000;}
+@media only screen and (max-width:480px ) {
+	.app{display:block;}
+	.bottom{display:none;}
+}
+
+
